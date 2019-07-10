@@ -9,7 +9,7 @@ bot.on('message', message =>{
     var msg = message.content;
     var prefix = ">" //The text before commands, you can put anything that you prefer
 
-    bot = commands.Bot(command_prefix='whatever_prefix_u_want_here')
+    bot = commands.Bot(command_prefix='tf')
 }
 @bot.event
 async def on_message(message):
