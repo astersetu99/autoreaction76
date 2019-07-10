@@ -16,9 +16,7 @@ bot.on('message', message =>{
 	    }
 		    if (message.content === '!fruits') {
 		message.react('🍎')
-			.then(() => message.react('🍊'))
-			.then(() => message.react('🍇'))
-			.catch(() => console.error('One of the emojis failed to react.'));
+	}
 	}
 });
         }
