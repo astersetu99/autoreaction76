@@ -14,9 +14,8 @@ bot.on('message', message =>{
         if(msg.startsWith('>', 0)){
             if(msg === prefix + "tf" && message.channel.id === "597329293533511691"){
                 message.channel.send('@here **Game Is About To Start...Please React Below.....**') // Sends a message to the channel, with the content
-                
-            }
-            
+        }
+        }
         }
     }
 });
